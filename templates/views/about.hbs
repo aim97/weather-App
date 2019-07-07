@@ -2,15 +2,25 @@
 <html>
 
 <head>
-    <title>Weather WebApp | About us</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/script.js"></script>
+    {{>head}}
 </head>
 
 <body>
     {{>header}}
 
-    <p>i don't want talk to you do just go away :|.</p>
+    <p>I don't want talk to you, just go away &#128530;.</p>
+    <div>
+        <span>This site basically does nothing on its own &#128513;, it interacts with 2 APIs</span>
+        <ul>
+            <li><b>Mapbox API:</b> an API used to get the longitude and latitude of the place you entered.</li>
+            <li><b>DarkSky API:</b> an API that allows to get current weather condition for a given location.</li>
+        </ul>
+        <p>
+            Based on those 2 this site works, you have no idea how hard it was to get this up and running &#128556;,
+            because even i don't &#128514; &#128514; &#128514; &#128514; it worked just like that. <br>
+            This being said, the party is over, <b>GO <a href="/" class="link">HOME</a></b> &#128529;. 
+        </p>
+    </div>
     <img src="http://placekitten.com/500/500">
     {{>footer}}
 </body>

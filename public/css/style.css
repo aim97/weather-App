@@ -36,6 +36,11 @@ header a {
     text-decoration: none;
 }
 
+.link {
+    color: #333;
+    text-decoration: none;
+}
+
 .portrait {
     width: 250px;
 }
