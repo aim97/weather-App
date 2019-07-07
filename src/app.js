@@ -6,6 +6,9 @@ const express = require('express');
 const chalk = require('chalk');
 const hbs = require('hbs');
 
+// set the port
+let port = process.env.PORT || 3000;
+
 // my custom modules
 const geocode = require('./geocode');
 
@@ -89,6 +92,6 @@ app.get('*', (req, res) => {
 });
 
 // start listening to requests
-app.listen(3000, () => {
-    console.log(chalk `server is running on port {bold 3000}`)
+app.listen(port, () => {
+    console.log(chalk `server is running on port {bold ${port}}`)
 });

@@ -1,21 +1,21 @@
 {
-  "name": "web-server",
-  "version": "1.0.0",
-  "description": "web serverfor some purpose",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "express"
-  ],
-  "author": "aim97",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "express": "^4.17.1",
-    "hbs": "^4.0.4",
-    "request": "^2.88.0",
-    "validator": "^11.1.0"
-  }
+    "name": "web-server",
+    "version": "1.0.0",
+    "description": "web serverfor some purpose",
+    "main": "app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "keywords": [
+        "express"
+    ],
+    "author": "aim97",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "express": "^4.17.1",
+        "hbs": "^4.0.4",
+        "request": "^2.88.0",
+        "validator": "^11.1.0"
+    }
 }

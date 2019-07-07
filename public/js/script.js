@@ -4,7 +4,7 @@ console.log("the client side script is loaded succesfully");
 document.getElementById('weather-form').addEventListener('submit', (event) => {
     event.preventDefault();
     let addr = document.getElementById("addr").value;
-    fetch(`http://localhost:3000/weather?address=${addr}`).then((response) => {
+    fetch(`/weather?address=${addr}`).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 document.getElementById('forecast').innerHTML = `<p> <b>ERROR: </b> ${data.error}</p>`
