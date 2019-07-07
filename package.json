@@ -4,7 +4,8 @@
     "description": "web serverfor some purpose",
     "main": "app.js",
     "scripts": {
-        "start": "node src/app.js"
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js -e js,hbs"
     },
     "keywords": [
         "express"
@@ -17,5 +18,8 @@
         "hbs": "^4.0.4",
         "request": "^2.88.0",
         "validator": "^11.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
     }
 }

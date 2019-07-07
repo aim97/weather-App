@@ -20,13 +20,11 @@ const getLocation = (data, callback) => {
     } else {
         let placeName = data.body.placeName,
             url = `${mapboxURL}${encodeURIComponent(placeName)}.json?access_token=${mapboxToken}&limit=1`;
-        console.log('i \'m trying to visit' + url);
         return request({
                 url: `${mapboxURL}${encodeURIComponent(placeName)}.json?access_token=${mapboxToken}&limit=1`,
                 json: true
             },
             (error, { body = {} }) => {
-                console.log(body);
                 if (error) {
                     _response.error = { message: 'something went wrong with the request' };
                 } else if (body.message) {
@@ -91,7 +89,6 @@ const getWeather = (data, callback) => {
 
 const getWeatherForecast = (data, callback) => {
     return getLocation(data, (data) => {
-        console.log(data);
         getWeather(data, callback);
     });
 };

@@ -64,7 +64,6 @@ app.get('/weather', (req, res) => {
     }
 
     geocode.getWeatherForecast({ error: undefined, body: { placeName: req.query.address } }, (data) => {
-        console.log('i\'m about to send data')
         if (data.error) {
             res.send({
                 error: data.error.message

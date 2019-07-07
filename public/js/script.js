@@ -4,6 +4,7 @@ console.log("the client side script is loaded succesfully");
 document.getElementById('weather-form').addEventListener('submit', (event) => {
     event.preventDefault();
     let addr = document.getElementById("addr").value;
+    document.getElementById('forecast').innerHTML = "<img class='loading' src='/imgs/loading.webp' style='width:100px;height:100px;'>"
     fetch(`/weather?address=${addr}`).then((response) => {
         response.json().then((data) => {
             if (data.error) {
