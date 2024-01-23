@@ -1,0 +1,207 @@
+repo_name: aim97/weather-App
+report_id: 84b9d1a1c254c3e36d72ad27dbbe5832
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T19:09:51+00:00'
+requested_by: aim97
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/aim97/weather-App
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/aim97/weather-App
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aim97/weather-App
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:33:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aim97/weather-App
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 19:04:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:20:36.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:33:57.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:33:57.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:33:57.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: hbs
+  description: Express.js template engine plugin for Handlebars
+  package_url: https://www.npmjs.com/hbs
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17878/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:20:36.000000000 Z
+  vulnerabilities:
+  - name: Insertion of Sensitive Information into Externally-Accessible File or Directory
+      and Exposure of Sensitive Information to an Unauthorized Actor in hbs
+    cve_id: CVE-2021-32822
+    cve_url: https://github.com/advisories/GHSA-7f5c-rpf4-86p8
+    detected_date: Sep 3
+    severity: moderate
+    first_patched: 
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:33:57.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/aim97/weather-App/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 16:33:57.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in validator.js
+    cve_id: CVE-2021-3765
+    cve_url: https://github.com/advisories/GHSA-qgmg-gppg-76g5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
+  - name: Inefficient Regular Expression Complexity in Validator.js
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xx4c-jj58-r7x6
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
